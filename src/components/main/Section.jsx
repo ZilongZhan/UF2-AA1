@@ -8,16 +8,16 @@ export const Section = ({ index, server }) => {
         <div className="text-container">
           <p>{server.description}</p>
           <aside className="section-aside">
-            <h3>Languages</h3>
+            <h3>Language(s)</h3>
             <ul>
-              {server.languages.map((language) => (
-                <li>{language}</li>
+              {server.languages.map((language, index) => (
+                <li key={index}>{language}</li>
               ))}
             </ul>
             <h3>Advantages</h3>
             <ul>
-              {server.advantages.map((advantage) => (
-                <li>{advantage}</li>
+              {server.advantages.map((advantage, index) => (
+                <li key={index}>{advantage}</li>
               ))}
             </ul>
           </aside>
