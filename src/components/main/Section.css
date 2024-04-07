@@ -1,0 +1,31 @@
+.content-section {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.content-container {
+  width: 60vw;
+}
+
+.section-heading {
+  border-bottom: 1px solid rgb(157, 157, 157);
+  font-size: 35px;
+  padding: 1rem;
+}
+
+.content-container p {
+  font-size: 20px;
+  border-right: 1px solid rgb(157, 157, 157);
+  padding: 1rem;
+  width: 90vw;
+}
+
+.section-aside {
+  padding: 1rem;
+  width: 22vw;
+}
+
+.text-container {
+  display: flex;
+}
