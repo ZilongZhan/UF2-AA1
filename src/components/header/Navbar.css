@@ -1,0 +1,20 @@
+.nav-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list li {
+  border-left: 2px solid rgb(143, 192, 219);
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+}
+
+.nav-list li a {
+  color: rgb(143, 192, 219);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav-list li a:hover {
+  color: rgb(94, 166, 190);
+}
