@@ -2,7 +2,7 @@ import "./Section.css";
 
 export const Section = ({ index, server }) => {
   return (
-    <section className="content-section">
+    <section id={server.label} className="content-section">
       <div className="content-container">
         <h1 className="section-heading">{`${index}. ${server.label}`}</h1>
         <div className="text-container">

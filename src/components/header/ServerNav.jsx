@@ -1,7 +1,7 @@
-export const ServerNav = () => {
+export const ServerNav = ({ server }) => {
   return (
     <li>
-      <a href="#">Tomcat</a>
+      <a href={`#${server.label}`}>{server.label}</a>
     </li>
   );
 };

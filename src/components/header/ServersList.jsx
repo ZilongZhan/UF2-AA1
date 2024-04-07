@@ -1,14 +1,12 @@
 import { ServerNav } from "./ServerNav";
+import { serversCollection } from "../../data";
 
 export const ServersList = () => {
   return (
     <ul className="nav-list">
-      <ServerNav />
-      <ServerNav />
-      <ServerNav />
-      <ServerNav />
-      <ServerNav />
-      <ServerNav />
+      {serversCollection.map((server) => (
+        <ServerNav server={server} />
+      ))}
     </ul>
   );
 };
