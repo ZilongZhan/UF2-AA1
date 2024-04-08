@@ -4,8 +4,8 @@ import { serversCollection } from "../../data";
 export const ServersList = () => {
   return (
     <ul className="nav-list">
-      {serversCollection.map((server) => (
-        <ServerNav server={server} />
+      {serversCollection.map((server, index) => (
+        <ServerNav key={index} server={server} />
       ))}
     </ul>
   );
