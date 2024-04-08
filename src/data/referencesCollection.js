@@ -14,4 +14,14 @@ export const referencesCollection = [
     anchor:
       "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
   },
+  { label: "Go documentation", anchor: "https://go.dev/doc/" },
+  { label: "Gin Web Framework", anchor: "https://gin-gonic.com/docs/" },
+  {
+    label: "Getting Started with Rails",
+    anchor: "https://guides.rubyonrails.org/getting_started.html",
+  },
+  {
+    label: "Django documentation",
+    anchor: "https://docs.djangoproject.com/en/5.0/",
+  },
 ];
