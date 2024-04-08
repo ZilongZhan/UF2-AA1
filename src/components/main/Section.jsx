@@ -15,7 +15,7 @@ export const Section = ({ index, server }) => {
               ))}
             </ul>
             <h3>Advantages</h3>
-            <ul>
+            <ul className="advantages-list">
               {server.advantages.map((advantage, index) => (
                 <li key={index}>{advantage}</li>
               ))}

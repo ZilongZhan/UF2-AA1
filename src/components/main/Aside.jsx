@@ -1,3 +1,5 @@
+import "./Aside.css";
+
 export const Aside = ({ referencesCollection }) => {
   return (
     <aside className="references-container">

@@ -1,0 +1,21 @@
+.references-container {
+  margin-top: 2rem;
+  width: 15vw;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.references-container h2 {
+  padding: 1rem 0;
+  color: rgb(27, 109, 153);
+  border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.references-container ul li {
+  margin: 2rem 0;
+  list-style: decimal;
+}
+
+.references-container ul li a {
+  color: rgb(94, 166, 190);
+}

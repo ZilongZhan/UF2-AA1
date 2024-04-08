@@ -2,17 +2,5 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.references-container {
-  margin-top: 2rem;
-  width: 15vw;
-  justify-content: center;
-  padding: 1rem;
-}
-
-.references-container h2 {
-  padding: 1rem 0;
-  color: rgb(114, 147, 163);
-  border-bottom: 1px solid rgb(175, 175, 175);
+  margin-top: 1rem;
 }

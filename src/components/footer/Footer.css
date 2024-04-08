@@ -4,7 +4,8 @@
   align-items: center;
   padding: 2rem;
   font-weight: bold;
-  background: rgb(143, 192, 219);
-  color: rgb(27, 109, 153);
+  color: rgb(143, 192, 219);
+  background: rgb(27, 109, 153);
   font-size: 18px;
+  margin-top: 3rem;
 }
