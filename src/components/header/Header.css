@@ -1,0 +1,14 @@
+.header-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+  background: rgb(27, 109, 153);
+  padding: 1rem 2rem;
+  color: rgb(143, 192, 219);
+}

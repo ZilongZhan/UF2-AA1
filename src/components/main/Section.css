@@ -1,0 +1,44 @@
+.content-section {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.content-container {
+  width: 65vw;
+}
+
+.section-heading {
+  border-bottom: 1px solid rgb(157, 157, 157);
+  font-size: 35px;
+  padding: 1rem;
+}
+
+.content-container p {
+  font-size: 20px;
+  border-right: 1px solid rgb(157, 157, 157);
+  padding: 1rem;
+  width: 90vw;
+}
+
+.section-aside {
+  padding: 1rem;
+  width: 25vw;
+}
+
+.text-container {
+  display: flex;
+}
+
+.section-aside ul {
+  margin-bottom: 1rem;
+}
+
+.section-aside ul li {
+  padding: 0.2rem 0;
+}
+
+.advantages-list li {
+  list-style: disc;
+  margin-left: 1rem;
+}
